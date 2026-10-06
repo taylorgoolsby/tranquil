@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -18,9 +20,11 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@types/three": "^0.186.0",
+    "css-loader": "^7.1.5",
     "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
     "ts-loader": "^9.6.2",
-    "typescript": "^7.0.2",
+    "typescript": "5.9",
     "webpack": "^5.111.1",
     "webpack-cli": "^7.2.3",
     "webpack-dev-server": "^6.0.0"
